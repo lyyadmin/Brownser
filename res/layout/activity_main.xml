@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="43dp"
+	    android:text="关闭"
+	    android:textColor="#FFFFFF"
+	    android:layout_alignParentRight="true"
+	    android:background="#ff6600"
+	    android:onClick="viewClick"
+	    android:textSize="16sp"
+	    android:gravity="center_vertical"
+	    android:padding="5dp"/>
+</RelativeLayout>
